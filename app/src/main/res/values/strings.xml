@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SampleProvider</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_welcome">Welcome to the app. This app is made solely with the intention of having fun. Click on the "Next" Button to continue.</string>
+    <string name="next_button">NEXT</string>
+    <string name="title_activity_configure">ConfigureActivity</string>
+    <string name="configure_string">Select your country</string>
+    <string name="country_hint">Pick a country</string>
+    <string name="phone_number">Enter your phone number</string>
+    <string name="preference_file">com.nishantd.samples.sampleprovider.preferences</string>
+    <string name="phone_number_key">phone_number</string>
+    <string name="country_key">country</string>
+
+    <string-array name="countries_array">
+        <item>India</item>
+        <item>USA</item>
+        <item>Australia</item>
+        <item>Other</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
