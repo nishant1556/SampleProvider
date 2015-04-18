@@ -1,8 +1,14 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    targetApi="21"
+    <style name="AppTheme" parent="android:Theme.Material.Light">
         <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/darkorange</item>
+        <item name="android:statusBarColor">@color/red</item>
+        <item name="android:navigationBarColor">@color/variantorange</item>
+        <item name="android:textColorPrimary">@color/variantorange</item>
+        <item name="android:windowBackground">@color/lightorange</item>
     </style>
 
 </resources>

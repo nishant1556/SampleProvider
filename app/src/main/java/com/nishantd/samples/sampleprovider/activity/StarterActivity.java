@@ -1,12 +1,10 @@
-package com.nishantd.samples.sampleprovider;
+package com.nishantd.samples.sampleprovider.activity;
 
 import android.app.Activity;
-import android.app.Fragment;
-import android.app.FragmentTransaction;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
+
+import com.nishantd.samples.sampleprovider.R;
 
 
 public class StarterActivity extends Activity {
@@ -17,7 +15,7 @@ public class StarterActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.i(TAG, "The activity is created:");
-        setContentView(R.layout.container_fragment);
+        setContentView(R.layout.activity_starter);
     }
 
     @Override
@@ -29,12 +27,6 @@ public class StarterActivity extends Activity {
     @Override
     public void onResume() {
         super.onResume();
-        Log.i(TAG, "The activity is resumed");
-        Fragment welcomFragment = new WelcomeFragment();
-        FragmentTransaction transaction = getFragmentManager().beginTransaction();
-        transaction.replace(R.id.container_fragment, welcomFragment);
-        transaction.addToBackStack(null);
-        transaction.commit();
     }
 
     @Override
